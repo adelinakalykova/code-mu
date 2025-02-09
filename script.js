@@ -1,6 +1,4 @@
-//Сделайте константу PI и с ее помощью вычислите длину какой-нибудь окружности по ее радиусу.
-const PI = 3.14;
-let radius = 5;
-let circumference = 2 * PI * radius;
-
-console.log(circumference);
+//Дана переменная a со значением '10' и переменная b со значением '20'. Сложите данные переменные как числа.
+let a = "10";
+let b = "20";
+console.log(Number(a) + Number(b));
