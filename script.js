@@ -1,15 +1,10 @@
-// Исправьте ошибки, допущенные в следующем коде:
+// Дан объект:
 
-let obj = {
-  "1a": 1,
-  b2: 2,
-  "c-c": 3,
-  "d 4": 4,
-  e5: 5,
-};
+let obj = {x: 1, y: 2, z: 3};
 
-console.log(obj["1a"]);
-console.log(obj.b2);
-console.log(obj["c-c"]);
-console.log(obj["d 4"]);
-console.log(obj.e5);
+for (let key in obj) {
+  obj[key] = obj[key] ** 2;  
+}
+
+console.log(obj);
+// Возведите в квадрат каждый элемент этого объекта.
