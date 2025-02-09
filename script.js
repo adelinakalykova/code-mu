@@ -1,8 +1,17 @@
-// Дан массив:
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr[1] + arr[2] + arr[3] + arr[4]);
 
-let arr = ["a", "b", "c", "d", "e"];
-delete arr[2];
-delete arr[4];
-console.log(arr);
-console.log(arr.length);
-// Удалите из него два элемента. Проверьте, какое станет значение свойства length после этого.
+//Код должен вывести последний элемент массива:
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr[arr.length - 1]);
+
+//Код должен вывести длину массива:
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.length);
+
+// Код должен вывести длину массива:
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.length);
