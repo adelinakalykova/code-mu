@@ -1,5 +1,5 @@
-//Создайте объект и убедитесь, что порядок ключей в нем не имеет значения.
-let obj = { 15: "adel", 55: "tim", 29: "lol" };
-console.log(obj[15]);
-console.log(obj[55]);
-console.log(obj[29]);
+// Получите массив ключей следующего объекта:
+
+let obj = {x: 1, y: 2, z: 3};
+let keys = Object.keys(obj);
+console.log(keys);
