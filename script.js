@@ -1,13 +1,22 @@
-// Исправьте ошибку, допущенную в следующем коде:
+// let key = "x";
 
-// let obj = {x: 1, y: 2, z: 3};
+// let obj = {
+//   [key]: 1,
+//   y: 2,
+//   z: 3,
+// };
 
-// let prop = 'x';
-// console.log(obj[prop]);
+// console.log(obj);
 
-// Исправьте ошибку, допущенную в следующем коде:
+//Дан объект:
+let key1 = 'x';
+let key2 = 'y';
+let key3 = 'z';
 
-let obj = {x: 1, y: 2, z: 3};
+let obj = {
+  [key1]: 1,
+  [key2]: 2,
+  [key3]: 3
+};
 
-let prop = 'x';
-console.log(obj[prop]);
+console.log(obj); 
