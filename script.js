@@ -1,9 +1,7 @@
-//Дана переменная. Выведите в консоль ее значение.
-let a = 43983;
-console.log(a);
-
-//Даны три переменные. Выведите в консоль их значения.
-let n = 8;
-let m = 4;
-let y = 5;
-console.log(n, m, y);
+//Выведите в консоль все известные вам типы данных. Посмотрите, чем отличается их цвет.
+console.log("hello world");
+console.log(23);
+console.log(null);
+console.log(false);
+console.log(true);
+console.log(underfined);
