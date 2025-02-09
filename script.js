@@ -1,9 +1,9 @@
-//Дана строка. Выведите на экран ее последний символ.
-let str = "mimimimimimimimi";
-alert(str[str.length - 1]);
-
-//Дана строка. Выведите на экран ее предпоследний символ.
-alert(str[str.length - 2]);
-
-//Дана строка. Выведите на экран ее предпредпоследний символ.
-alert(str[str.length - 3]);
+//Дана строка '12345'. Найдите сумму цифр этой строки.
+let str = "12345";
+alert(
+  Number(str[0]) +
+    Number(str[1]) +
+    Number(str[2]) +
+    Number(str[3]) +
+    Number(str[4])
+);
