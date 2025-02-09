@@ -1,7 +1,7 @@
-let user = {
-  name: "Adelina",
-  surname: "Kalykova",
-  patronymic: "Adylbekovna",
+//Создайте объект date с ключами 'year', 'month' и 'day' и значениями, соответствующими текущему дню. Выведите созданную дату на экран в формате год-месяц-день.
+let date = {
+  year: "2025",
+  month: "02",
+  day: "10",
 };
-
-console.log(user.surname + " " + user.name + " " + user.patronymic);
+console.log(date.year + " " + date.month + " " + date.day);
