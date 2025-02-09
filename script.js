@@ -1,65 +1,32 @@
-// 1
-// let num1 = 1;
-// let num2 = 2;
-// console.log('сумма: ' + (num1 + num2));
+// //Найдите количество секунд в сутках.
+// alert(60 * 60 * 24);
 
-// 2
-// let a = 1;
-// let b = 2;
-// console.log(a + b);
+// //Найдите количество секунд в 30 сутках.
+// alert(60 * 60 * 24 * 30);
 
-//3
-// let num = '123';
-// let sum = Number(num[0]) + Number(num[1]) + Number(num[2]);
-// console.log(sum);
+//Найдите количество секунд в году.
+// alert(60 * 60 * 365 * 24);
 
-// //4
-// let num = 123;
-// let numb = String(num);
-// console.log(numb[0]);
+//Найдите количество минут в сутках.
+// alert(24 * 60);
 
-//5
-// let num = 123;
-// let numb = String(num);
-// console.log(numb.length);
+//Найдите количество минут в году.
+// alert(24 * 60 * 365);
 
-// //6
-// let a = 24 * 60 * 60;
-// console.log(a);
+// //Найдите количество байт в мегабайте.
+// alert(1024 * 1024);
 
-//7
-// let a = 0;
-// console.log(++a);
+//Найдите количество байт в гигабайте.
+// alert(1024 * 1024 * 1024)
 
-//8
-// let num = 123;
-// let str = String(num);
-// console.log(str.length);
+// //Найдите количество байт в 10 гигабайтах.
+// alert(1024 * 1024 * 1024 * 10);
 
-//9
-// let num = 123;
-// let str = String(num);
-// console.log(str[str.length -1]);
+//Найдите количество байт в терабайте.
+// alert(1024 * 1024 * 1024 * 1024);
 
-//10
-// let num = 123;
-// let str = String(num);
-// console.log(str.length);
+//Найдите количество килобайт в терабайте.
+alert(1024 * 1024 * 1024);
 
-//11
-// let num = 123;
-// let str = String(num);
-// console.log(str[str.length -1]);
-
-//12
-// let a = '123';
-// let b = '456';
-// let s = Number(a) + Number(b);
-//console.log(s);
-
-//13
-// let aaa = 1;
-// let bbb = 2;
-// let ccc = 3;
-
-// console.log(Number(aaa + bbb + ccc));
+//or
+alert(1024 ** 3);
