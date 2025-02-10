@@ -1,22 +1,7 @@
-//Проверьте, что переменная num больше нуля и меньше 5.
-// let num = 7;
-// if (num > 0 && num < 5) {
-//   console.log("+");
-// } else {
-//   console.log("-");
-// }
+let num = 3;
 
-//Проверьте, что переменная num больше или равна 10 и меньше или равна 20.
-// let num = 10;
-// if (num >= 10 && num <= 20) {
-//   console.log("+");
-// } else {
-//   console.log("-");
-// }
-
-//Проверьте, что переменная num1 равна или меньше 1, а переменная num2 больше или равна 3.
-num1 = 1;
-num2 = 4;
-if (num1 <= 1 && num2 >= 3) {
-  console.log("+");
-} else console.log("-");
+if (num > 0 && num < 5 || num > 10 && num < 20) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
