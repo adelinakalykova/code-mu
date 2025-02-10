@@ -1,28 +1,18 @@
-//Перепишите следующий код с использованием сокращенной формы:
+// Перепишите следующий код в сокращенной форме:
 
-// let test = true;
+// let test1 = true;
+// let test2 = true;
 
-// if (!test) {
+// if (test1 === true && test2 === true) {
 // 	console.log('+++');
 // } else {
 // 	console.log('---');
 // }
 
-//Перепишите следующий код с использованием сокращенной формы:
+let test1 = true;
+let test2 = true;
 
-// let test = true;
-
-// if (test) {
-// 	console.log('+++');
-// } else {
-// 	console.log('---');
-// }
-
-// Перепишите следующий код с использованием сокращенной формы:
-
-let test = true;
-
-if (!test) {
+if (test1 && test2) {
   console.log("+++");
 } else {
   console.log("---");
