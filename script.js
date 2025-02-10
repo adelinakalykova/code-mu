@@ -1,5 +1,23 @@
-//В JavaScript семь примитивных типов данных: string, number, boolean, null, undefined, symbol, bigint. Запомните их количество и названия - это часто спрашивают на собеседованиях.
-const arr = [1, 2, 3, 4, 5];
-const res = arr[1] + arr[2];
+// Код должен вывести элемент объекта:
 
-console.log(res);
+// let obj = {x: 1, y: 2, z: 3};
+// console.log(obj.x);
+
+// Код должен вывести элемент объекта по ключу из переменной:
+
+// let obj = {x: 1, y: 2, z: 3};
+// let key = 'x';
+
+// console.log(obj[key]);
+
+//Код должен вывести сумму элементов объекта:
+
+// let obj = {x: 1, y: 2, z: 3};
+// let sum = obj.x + obj.y + obj.x;
+
+// console.log(sum);
+
+//Код должен вывести количество элементов объекта:
+
+let obj = { x: 1, y: 2, z: 3 };
+console.log(Object.keys(obj).length);
