@@ -1,7 +1,9 @@
-let num = 3;
-
-if (num > 0 && num < 5 || num > 10 && num < 20) {
-	console.log('+++');
+// Дан следующий код:
+num1 = 3;
+num2=2;
+if (!(num1 >= 0 || num2 <= 10)) {
+  console.log("+++");
 } else {
-	console.log('---');
+  console.log("---");
 }
+// Используя оператор ! инвертируйте приведенное условие.
