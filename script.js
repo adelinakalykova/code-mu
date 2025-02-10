@@ -1,23 +1,31 @@
-// Код должен вывести элемент объекта:
+//Проверьте, что переменная test больше 10.
+// let test = 15;
+// if (test > 10) {
+//   console.log("+");
+// } else {
+//   console.log("-");
+// }
 
-// let obj = {x: 1, y: 2, z: 3};
-// console.log(obj.x);
+//Проверьте, что переменная test меньше 10.
+// let test = 9;
+// if (test > 10) {
+//   console.log("+");
+// } else {
+//   console.log("-");
+// }
 
-// Код должен вывести элемент объекта по ключу из переменной:
+//Проверьте, что переменная test больше или равна 10.
+// let test = 10;
+// if (test >= 10) {
+//   console.log("+");
+// } else {
+//   console.log("-");
+// }
 
-// let obj = {x: 1, y: 2, z: 3};
-// let key = 'x';
-
-// console.log(obj[key]);
-
-//Код должен вывести сумму элементов объекта:
-
-// let obj = {x: 1, y: 2, z: 3};
-// let sum = obj.x + obj.y + obj.x;
-
-// console.log(sum);
-
-//Код должен вывести количество элементов объекта:
-
-let obj = { x: 1, y: 2, z: 3 };
-console.log(Object.keys(obj).length);
+//Проверьте, что переменная test меньше или равна 10.
+let test = 5;
+if (test <= 10) {
+  console.log("+");
+} else {
+  console.log("-");
+}
