@@ -1,9 +1,15 @@
-// Дан следующий код:
-num1 = 3;
-num2=2;
-if (!(num1 >= 0 || num2 <= 10)) {
-  console.log("+++");
+// Проверьте, что переменная test равна true.
+// let test = true;
+// if ((test = true)) {
+//   console.log("+");
+// } else {
+//   console.log("-");
+// }
+//Проверьте, что переменная test равна false.
+
+let test = true;
+if ((test = false)) {
+  console.log("+");
 } else {
-  console.log("---");
+  console.log("-");
 }
-// Используя оператор ! инвертируйте приведенное условие.
