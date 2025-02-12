@@ -1,17 +1,27 @@
-// Пусть в переменной num хранится число. Если это число попадает в диапазон от 10 до 99, то найдите сумму цифр этого числа. Если полученная сумма меньше или равна 9, то выведите сообщение о том, что сумма цифр однозначна, в противном случае выведите сообщение о том, что сумма цифр двухзначна.
-let num = 51;
+//  Перепишите следующий код через switch-case:
 
-if (num >= 10 && num <= 99) {
-  let str = String(num);
-  let sum = parseInt(str[0]) + parseInt(str[1]);
+let lang = "ru";
 
-  console.log(sum);
+// if (lang == 'ru') {
+// 	console.log('рус');
+// } else if (lang == 'en') {
+// 	console.log('анг');
+// } else if (lang == 'de') {
+// 	console.log('нем');
+// } else {
+// 	console.log('язык не поддерживается');
+// }
 
-  if (sum <= 9) {
-    console.log("однозначна");
-  } else {
-    console.log("двузначна");
-  }
-} else {
-  console.log("error");
+switch (lang) {
+  case "ru":
+    console.log("ru");
+    break;
+  case "en":
+    console.log("en");
+    break;
+  case "de":
+    console.log("de");
+    break;
+  default:
+    console.log("not language");
 }
