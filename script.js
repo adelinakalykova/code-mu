@@ -1,19 +1,6 @@
-//Перепишите следующий код в сокращенной форме:
+//Проверьте, что переменная test равна 10, то пусть на экран выведется 'yes'. В противном случае пусть ничего не произойдет.
+let test = 10;
 
-// let test1 = true;
-// let test2 = true;
-
-// if (test1 === true && test2 !== true) {
-// 	console.log('+++');
-// } else {
-// 	console.log('---');
-// }
-
-let test1 = true;
-let test2 = true;
-
-if (test1 && !test2) {
+if (test == 10) {
   console.log("+++");
-} else {
-  console.log("---");
 }
