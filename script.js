@@ -1,15 +1,16 @@
 //В переменной month лежит какое-то число из интервала от 1 до 12. Определите в какую пору года попадает этот месяц (зима, лето, весна, осень).
-let month = 5;
-if (month >= 12 && month <= 2) {
+let month = 8;
+
+if (month === 12 || month === 1 || month === 2) {
   console.log("Winter");
 } else if (month >= 3 && month <= 5) {
-  console.log("spring");
+  console.log("Spring");
 } else if (month >= 6 && month <= 8) {
-  console.log("summer");
+  console.log("Summer");
 } else if (month >= 9 && month <= 11) {
-  console.log("autumn");
+  console.log("Autumn");
 } else {
-  console.log("error");
+  console.log("Error: Invalid month");
 }
 
 //Дана строка, состоящая из символов, например, 'abcde'. Проверьте, что первым символом этой строки является буква 'a'. Если это так - выведите 'да', в противном случае выведите 'нет'.
