@@ -1,15 +1,43 @@
-//Как известно, четные числа делятся на 2 без остатка, а нечетные - с остатком. Пусть у вас дано число. С помощью оператора % и конструкции if проверьте четное это число или нет.
-// let num = 8;
-// if (num % 2 == 0) {
-//   console.log("+");
+//Код должен проверить сумму чисел:
+
+// let num1 = 1;
+// let num2 = 2;
+// let sum = num1 + num2;
+
+// if (sum === 3) {
+//   console.log(sum);
 // } else {
 //   console.log("-");
 // }
 
-//Дано число. Проверьте, что оно делится на 3.
-let num = 9;
-if (num % 3 == 0) {
-  console.log("+");
-} else {
-  console.log("-");
-}
+//Код должен проверить сумму чисел:
+
+// let num1 = "1";
+// let num2 = "2";
+// let sum = +num1 + +num2;
+// if (sum === 3) {
+//   console.log(sum);
+// } else {
+//   console.log("---");
+// }
+
+//Код должен проверить сумму чисел:
+
+// let num1 = "1";
+// let num2 = "2";
+// let sum = Number(num1) + Number(num2);
+// if (sum === 3) {
+//   console.log(sum);
+// } else {
+//   console.log("---");
+// }
+
+//Код должен проверить первую цифру числа:
+
+// let num = 123;
+// let str = String(num);
+// if (str[0] == 1) {
+//   console.log("+++");
+// } else {
+//   console.log("---");
+// }
