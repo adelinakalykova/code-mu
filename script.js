@@ -1,15 +1,18 @@
-// ..Сделайте функцию, выводящую в консоль ваше имя.
-// function name() {
-//   console.log("Adelina");
-// }
-// name();
-
-//Сделайте функцию, выводящую в консоль сумму чисел от 1 до 100.
-function logSum() {
-  let sum = 0;
-  for (let i = 1; i <= 100; i++) {
-    sum += i;
-  }
-  console.log(sum);
+//Сделайте функцию, которая параметром принимает число и выводит в консоль куб этого числа.
+function calcNumSq(num) {
+  console.log(num ** 3);
 }
-logSum();
+
+calcNumSq(5);
+
+//Сделайте функцию, которая параметром принимает число и проверяет, положительное это число или отрицательное. В первом случае пусть функция выводит в консоль текст '+++', а во втором '---'.
+function ChekingNumbers(num) {
+  if (num > 0) {
+    console.log("++++");
+  } else if (num === 0) {
+    console.log("This is 0");
+  } else {
+    console.log("---");
+  }
+}
+ChekingNumbers(0);
