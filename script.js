@@ -1,17 +1,9 @@
-//Замыкания
-
-function createBalance(startSum) {
-  let balance = startSum;
-  return function (summa) {
-    balance += summa;
-    console.log(balance);
+function createRound(precision) {
+  return function (num) {
+    return num.toFixed(precision);
   };
 }
-let AdelinaBalance = createBalance(100);
-AdelinaBalance(600);
-AdelinaBalance(-200);
-
-console.log("///////////");
-let MashasBalance = createBalance(2000);
-MashasBalance(-300);
-MashasBalance(500);
+const doubleprecision = createRound(2);
+const tripleprecision = createRound(3);
+console.log(doubleprecision(5.312));
+console.log(tripleprecision(5.564567));
