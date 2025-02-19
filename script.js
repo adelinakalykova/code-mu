@@ -1,16 +1,17 @@
-//Сделайте функцию, которая параметром принимает число, а возвращает куб этого числа. С помощью этой функции найдите куб числа 3 и запишите его в переменную res.
-// function func(num) {
-//   return num ** 3;
-// }
-// let res = func(3);
-// console.log(res);
+//Замыкания
 
-//Сделайте функцию, которая параметром принимает число, а возвращает квадратный корень из этого числа. С помощью этой функции найдите корень числа 3, затем найдите корень числа 4. Просуммируйте полученные результаты и выведите их в консоль.
-function func(num) {
-  return Math.sqrt(num);
+function createBalance(startSum) {
+  let balance = startSum;
+  return function (summa) {
+    balance += summa;
+    console.log(balance);
+  };
 }
-let res1 = func(3);
-let res2 = func(4);
-let sum = res1 + res2;
-console.log(sum);
-  
+let AdelinaBalance = createBalance(100);
+AdelinaBalance(600);
+AdelinaBalance(-200);
+
+console.log("///////////");
+let MashasBalance = createBalance(2000);
+MashasBalance(-300);
+MashasBalance(500);
